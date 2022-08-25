@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: rgb(252, 252, 252);
+}
+
+.nav {
+  background-color: rgb(12, 11, 11);
+  padding: 20px 0;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+nav a:link {
+  color: rgb(231, 228, 228);
+  text-decoration: none;
+  margin: 10px;
+}
+
+nav a:hover {
+  color: orangered;
+}
+
+.header {
+  margin: 7rem 4rem;
+  display: flex;
+}
+
+.header img {
+  height: 15rem;
+  width: 30rem;
+  margin-right: 4rem;
+  border-radius: 50%;
+}
+
+h1,
+h3 {
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  background-color: rgba(39, 107, 233, 0.904);
+  color: white;
+  padding: 1rem;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  border-radius: 0.5em;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: rgba(76, 132, 236, 0.904);
+}
+
+main {
+  background-color: rgb(241, 238, 238);
+  padding-top: 3.5rem;
+}
+main h2 {
+  text-align: center;
+}
+main p {
+  text-align: center;
+}
+.main-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.icons {
+  background-color: white;
+  margin-top: 1rem;
+  width: 17rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 3rem;
+}
+
+.main-button {
+  margin-left: 40%;
+  margin-bottom: 3rem;
+}
+
+.photos--1 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.photo {
+  width: 17rem;
+  /* text-align: center; */
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+.inner-photo {
+  background-color: white;
+  width: 17rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+img {
+  width: 17rem;
+}
+
+.photos {
+  background-color: rgb(238, 236, 236);
+  margin-top: 1rem;
+  padding-top: 4rem;
+  text-align: center;
+}
+.photos-up {
+  margin-bottom: 2rem;
+}
+.photos-down {
+  margin-top: 2rem;
+}
+.photos-button {
+  margin-bottom: 3rem;
+}
