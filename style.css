@@ -549,9 +549,8 @@ hr {
     max-width: 100%;
   }
 
-  .home-text img {
-    max-width: 100%;
-    width: 490px;
+  .home-img img {
+    width: 350px;
     height: auto;
   }
 
