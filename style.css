@@ -660,7 +660,7 @@ hr {
   }
 
   .profile {
-    max-width: 100%;
+    width: 130%;
     padding: 30px 15px;
   }
 
@@ -672,7 +672,7 @@ hr {
     max-width: 100%;
   }
 
-  .work-content {
+  .card-content {
     margin-left: -20px;
   }
 
