@@ -702,4 +702,8 @@ hr {
     margin-left: 13px;
     width: 40%;
   }
+  
+  .copyright{
+    width: 130%;
+  }
 }
