@@ -231,7 +231,7 @@ img {
   letter-spacing: 6px;
 }
 
-.work-content {
+.card-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   grid-gap: 2rem;
@@ -496,7 +496,7 @@ hr {
 
 .social-icons a i {
   margin: 0px;
-  margin-left: 230px;
+  margin-left: 190px;
 }
 
 .social-icons a i:hover {
