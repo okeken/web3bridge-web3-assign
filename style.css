@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 
 * {
   padding: 0;
@@ -48,6 +48,16 @@ header {
 
 span {
   color: var(--main-color);
+}
+
+p,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 400;
 }
 
 .navbar {
@@ -607,12 +617,23 @@ hr {
   .home {
     display: flex;
     flex-direction: column-reverse;
+    margin-top: 443px;
   }
 
   .home .about {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  
+    .home-text {
+    margin-top: -70px;
+  }
+
+  .home-img img {
+    width: 250px;
+    height: auto;
+    margin-top: -150px;
   }
 
   .about {
