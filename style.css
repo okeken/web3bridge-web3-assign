@@ -495,7 +495,8 @@ hr {
 }
 
 .social-icons a i {
-  margin: -10px 70px 30px;
+  margin: 0px;
+  margin-left: 300px;
 }
 
 .social-icons a i:hover {
