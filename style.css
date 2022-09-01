@@ -231,7 +231,7 @@ img {
   letter-spacing: 6px;
 }
 
-.card-content {
+.work-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   grid-gap: 2rem;
